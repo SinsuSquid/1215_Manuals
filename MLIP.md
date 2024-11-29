@@ -13,15 +13,15 @@ MTP : Polynomial의 linear combination을 다차원 fit이라 생각하시면 �
 
 MTP를 비롯한 다수의 machine-learning potential (MLP)는 아래 가정을 기반으로 출발합니다.
 
-$E^{\rm MLP} = \sum^{N}_{i=1}V^{\rm MLP}({\bold n}_i)$
+$E^{\rm MLP} = \sum^{N}_{i=1}V^{\rm MLP}({\mathbf n}_i)$
 
 각 입자의 potential을 linear combination하여 하나의 configuration의 전체 에너지를 결정한다는 의미입니다.
 
-이때 $V^{\rm MLP}({\bold n}_i)$ = $V^{\rm MTP}({\bold n}_i)$는 다음의 형태로 정의되는데요,
+이때 $V^{\rm MLP}({\mathbf n}_i) = V^{\rm MTP}({\mathbf n}_i)$는 다음의 형태로 정의되는데요,
 
-$V^{\rm MTP}({\bold n}_i) = \sum^{N_{lin}}_{\alpha = 1}{\xi_\alpha B_\alpha({\bold n}_i)}$
+$V^{\rm MLP}({\mathbf n}_i) = \sum^{N\_{lin}}\_{\alpha = 1}{\xi\_\alpha B\_\alpha({\mathbf n}_i)}$
 
-여기서 $\xi_\alpha$는 linear parameter (fitting 통해 최적화) $B_\alpha({\bold n}_i)$는 basis function (predefined)이라 얘기합니다.
+여기서 $\xi_\alpha$는 linear parameter (fitting 통해 최적화) $B_\alpha({\mathbf n}_i)$는 basis function (predefined)이라 얘기합니다.
 
 더 자세한 basis function의 기술 방법은 논문에서 소개되고 있는데, 이 부분은 생략하도록 하겠습니다.
 
