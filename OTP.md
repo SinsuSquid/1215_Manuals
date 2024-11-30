@@ -71,7 +71,7 @@ Enter code from app (-1 to skip)
 
 ```bash
 # 단말기에서
-$ sh NewJeans@000.111.222.333
+$ ssh NewJeans@000.111.222.333
 (NewJeans@000.111.222.333) Password: # haerinLove 입력
 (NewJeans@000.111.222.333) Verification code: # App에 표시되는 6자리 숫자 공백없이 입력
 
