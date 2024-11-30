@@ -22,7 +22,7 @@ OTP를 간단하게 설명드리면, 등록된 key와 시간 정보를 이용해
 
 ```bash
 # 단말기에서
-$ sh NewJeans@000.111.222.333
+$ ssh NewJeans@000.111.222.333
 (NewJeans@000.111.222.333) Password: # haerinLove 입력
 
 # 클러스터 접속 완료
